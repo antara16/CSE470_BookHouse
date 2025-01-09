@@ -1,0 +1,32 @@
+/* Add this to your CSS file */
+.explore-page {
+    padding: 20px;
+  }
+  
+  .books-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .book-info p {
+    font-size: 14px;
+  }
+  
