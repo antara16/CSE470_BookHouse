@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // MongoDB Atlas connection string
-const uri = "mongodb+srv://470project:CSE470@470project.c8o1q.mongodb.net/"; // Replace <username>, <password>, and myDatabase
+const uri = "mongodb+srv://470project:<>@470project.c8o1q.mongodb.net/"; // Replace <username>, <password>, and myDatabase
 
 // Create a new MongoClient
 const client = new MongoClient(uri);
