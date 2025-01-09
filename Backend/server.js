@@ -5,7 +5,7 @@ const app = express();
 const PORT = 5000;
 
 // MongoDB Atlas connection string
-const uri = "mongodb+srv://470project:CSE470@470project.c8o1q.mongodb.net/";
+const uri = "mongodb+srv://470project:<>@470project.c8o1q.mongodb.net/";
 const client = new MongoClient(uri);
 
 // Middleware to handle JSON requests
