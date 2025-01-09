@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // MongoDB connection URI (
-const uri = "mongodb+srv://470project:CSE470@470project.c8o1q.mongodb.net/";
+const uri = "mongodb+srv://470project:<>@470project.c8o1q.mongodb.net/";
 
 // Function to connect to the database and interact with the "BookHouse" collection
 async function run() {
